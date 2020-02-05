@@ -15,11 +15,14 @@ GLUON_FEATURES := \
   web-osm \
   config-mode-geo-location-osm
 
-GLUON_SITE_PACKAGES := \
-  gluon-autorestart \
+GLUON_SITE_PACKAGES := \  
   gluon-tunneldigger-watchdog \
   iwinfo \
-  haveged
+  haveged \
+  ffsw-banner \
+  iperf3 \
+  ffsw-ssid-changer \
+  respondd-module-airtime
 
 USB_BASIC := \
   kmod-usb-core \
@@ -65,7 +68,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 endif
 
 GLUON_BRANCH ?= experimental
-DEFAULT_GLUON_RELEASE := 1.4.0~$(GLUON_BRANCH)_$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 1.4.9-ts
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
