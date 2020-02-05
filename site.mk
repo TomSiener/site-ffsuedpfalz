@@ -69,6 +69,7 @@ endif
 
 GLUON_BRANCH ?= experimental
 DEFAULT_GLUON_RELEASE := 1.4.9-ts
+GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
