@@ -15,7 +15,7 @@ GLUON_FEATURES := \
   web-osm \
   config-mode-geo-location-osm
 
-GLUON_SITE_PACKAGES := \  
+GLUON_SITE_PACKAGES := \
   gluon-tunneldigger-watchdog \
   iwinfo \
   haveged \
