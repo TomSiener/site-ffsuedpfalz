@@ -68,7 +68,7 @@ ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
 endif
 
 GLUON_BRANCH ?= experimental
-DEFAULT_GLUON_RELEASE := 1.4.9-ts
+DEFAULT_GLUON_RELEASE := 1.5.0-ts
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
